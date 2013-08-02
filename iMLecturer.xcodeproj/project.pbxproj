@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		44BE558CDD554BADB865EBC5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0642517D4791470F98939447 /* libPods.a */; };
+		55147084174E1A3000C9F218 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55147083174E1A3000C9F218 /* MessageUI.framework */; };
+		55147086174E2B9F00C9F218 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55147085174E2B9F00C9F218 /* EventKit.framework */; };
+		55147088174E2F6F00C9F218 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55147087174E2F6F00C9F218 /* EventKitUI.framework */; };
 		55C7CA8C171B7FEF001C7747 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7CA8B171B7FEF001C7747 /* CustomCell.m */; };
 		55C7CA8E171B925E001C7747 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C7CA8D171B925E001C7747 /* avatar.png */; };
 		55C7CA95171B9E4D001C7747 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7CA94171B9E4D001C7747 /* PersonDetailViewController.m */; };
@@ -34,6 +37,9 @@
 /* Begin PBXFileReference section */
 		0642517D4791470F98939447 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADCB217FA064F5DBA8A7930 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../../Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		55147083174E1A3000C9F218 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		55147085174E2B9F00C9F218 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		55147087174E2F6F00C9F218 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		55C7CA8A171B7FEF001C7747 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		55C7CA8B171B7FEF001C7747 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		55C7CA8D171B925E001C7747 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55147088174E2F6F00C9F218 /* EventKitUI.framework in Frameworks */,
+				55147086174E2B9F00C9F218 /* EventKit.framework in Frameworks */,
+				55147084174E1A3000C9F218 /* MessageUI.framework in Frameworks */,
 				55DBAF271719A440004E49A7 /* MobileCoreServices.framework in Frameworks */,
 				55DBAF251719A430004E49A7 /* SystemConfiguration.framework in Frameworks */,
 				55FDAE4617198EC8003468B8 /* UIKit.framework in Frameworks */,
@@ -85,6 +94,9 @@
 		55FDAE3917198EC8003468B8 = {
 			isa = PBXGroup;
 			children = (
+				55147087174E2F6F00C9F218 /* EventKitUI.framework */,
+				55147085174E2B9F00C9F218 /* EventKit.framework */,
+				55147083174E1A3000C9F218 /* MessageUI.framework */,
 				55C7CA8D171B925E001C7747 /* avatar.png */,
 				55FDAE4B17198EC8003468B8 /* project_test_7 */,
 				55FDAE4417198EC8003468B8 /* Frameworks */,
@@ -346,10 +358,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0ADCB217FA064F5DBA8A7930 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "project_test_7/iMLecturer-Prefix.pch";
 				INFOPLIST_FILE = "project_test_7/iMLecturer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = iMLecturer;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -358,10 +373,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0ADCB217FA064F5DBA8A7930 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "project_test_7/iMLecturer-Prefix.pch";
 				INFOPLIST_FILE = "project_test_7/iMLecturer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = iMLecturer;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

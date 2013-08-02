@@ -11,6 +11,7 @@
 #import "CustomCell.h"
 #import "PersonDetailViewController.h"
 //importing all classes involved
+
 @interface SecondViewController ()
 
 @end
@@ -127,7 +128,7 @@
     if ([[segue identifier] isEqualToString:@"showDetail"]) { // if my table is clicked
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow]; //define the path for selected row
         NSArray *object = _displayItems[indexPath.row]; //put only selected lecturer to new array
-        NSLog(@"String %@", object); // show me what you did
+        NSLog(@"String %@", object); // show me what is inside 
         [[segue destinationViewController] setDetailItem:object]; // send the array to the next view
     }
     

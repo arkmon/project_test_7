@@ -8,16 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface SecondViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate> {
     
 }
 
 @property (retain, nonatomic) IBOutlet UITableView *tableView;
-
 @property (retain, nonatomic) NSArray *results;
 @property (retain, nonatomic) NSMutableArray *displayItems;
 @property (retain, nonatomic) IBOutlet UISearchBar *serchBar;
-
-
 @property (weak, nonatomic)  NSDictionary *tweet;
 @end
