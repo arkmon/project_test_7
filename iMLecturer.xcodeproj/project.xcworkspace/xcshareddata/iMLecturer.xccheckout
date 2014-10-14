@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9BCE1464-BFAD-4CBE-85B1-7445CFC23C27</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iMLecturer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5333739121171DBF9FE09A4B90DD07242EA8D51D</key>
+		<string>https://github.com/arkmon/project_test_7.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iMLecturer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5333739121171DBF9FE09A4B90DD07242EA8D51D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/arkmon/project_test_7.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5333739121171DBF9FE09A4B90DD07242EA8D51D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5333739121171DBF9FE09A4B90DD07242EA8D51D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>project_test_7</string>
+		</dict>
+	</array>
+</dict>
+</plist>

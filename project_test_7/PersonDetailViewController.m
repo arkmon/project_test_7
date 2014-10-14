@@ -93,7 +93,7 @@
     //[[UIApplication sharedApplication] openURL:phoneNumber];
    //   NSURL *phoneNumber = [[NSURL alloc] initWithString: @"tel:867-5309"];
 
-    NSLog( @"%@", phoneNumber);
+   // NSLog( @"%@", phoneNumber);
     
        [[UIApplication sharedApplication] openURL: phoneNumber];
 }

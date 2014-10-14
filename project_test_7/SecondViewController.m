@@ -24,6 +24,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     self.tableView.backgroundColor = [UIColor colorWithRed:0.96 green:0.95 blue:0.90 alpha:1.0];  
     // above code apply formatting to my table
+    
     NSURL *url = [NSURL URLWithString:@"http://www.imlecturer.arkmon.co.uk/index.php/json"];
     //above code defines my url for json formatted data
     NSURLRequest *request = [NSURLRequest requestWithURL:url]; // im setting up the request with url
